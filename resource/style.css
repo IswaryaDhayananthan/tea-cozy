@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    font-size: 22px;
+    color: seashell;
+}
+ul {
+    text-align: right;
+    text-decoration: underline;
+    
+  }
+li {
+    list-style: none;
+    display: inline-block;
+  }
+li a {
+    color: seashell;
+    margin:5px;
+    border:0px;
+  }
+.teaofthemonth{
+    text-align: center;
+}
+.teaimage{
+  display: flex;
+  width: 1000px;
+  margin-left: 175px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.bgimage{
+  display: flex;
+  position: relative;
+  justify-content:space-around;
+  border-top: 1px solid seashell;
+  
+}
+.banner{
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+}
+.locationimage{
+  display:flex;
+  position: relative;
+  justify-content:space-around;
+  border-top: 1px solid seashell;
+}
+.a1{
+  display:block;
+  position: absolute;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  top: 35%;
+  left: 25%;
+  transform: translate(-75%, -50%);
+}
+.a2{
+  display:block;
+  position: absolute;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.a3{
+  display:block;
+  position: absolute;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  top: 35%;
+  left: 75%;
+  transform: translate(-25%, -50%);
+}
+.loc{
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-body{
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
